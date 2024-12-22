@@ -18,10 +18,12 @@ This project is focused on implementing robust production ready IIoT implementat
 - [ ] Firmware-Over-The-Air (FOTA) with github public repo, SSL
 - [ ] Firmware-Over-The-Air (FOTA) with github private repo, SSL
     - [ ] OTA Partitions configurations
-    - [ ] Revert to old firmware based on event
+    - [ ] Revert to old firmware based on event (button press/user input)
     - [ ] After OTA, Getting WiFi credentials from SPIFFS ot LittleFS
+- [ ] Buffer data locally if network down, send when network is up
 - [ ] Checking AP & STA mode on ESP32 at the same time (Custom webpage for user configurations)
 - [ ] Power Modes testing with ESP32 (Active mode, Modem Sleep mode, Light Sleep mode, Deep Sleep mode, Hibernation mode)
+- [ ] Optimizing dual cores in ESP32
 - [ ] Blocking, Non-Blocking Functions test
 - [ ] Interrupt Handlers
 - [ ] MQTT over WiFi
@@ -32,7 +34,12 @@ This project is focused on implementing robust production ready IIoT implementat
 - [ ] HTTP(S) methods over WiFi (GET, POST, PUT, and DELETE) // With external server
 - [ ] Soft reset 
 - [ ] Hard reset
-
+- [ ] RTOS Implementation
+- [ ] IoT Mobile Framework
+    - [ ] ESP32 to Firebase (https://github.com/mobizt/FirebaseClient)
+    - [ ] Testing what is the max packet size can be sent by choosen MQTT library
+    - [ ] Testing on Sending long string in single json payload
+    - [ ] Test & Verify
 
 ### References
 FOTA - https://www.youtube.com/watch?v=qCmdUtguwPw
