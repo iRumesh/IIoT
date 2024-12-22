@@ -20,6 +20,7 @@ This project is focused on implementing robust production ready IIoT implementat
     - [ ] OTA Partitions configurations
     - [ ] Revert to old firmware based on event (button press/user input)
     - [ ] After OTA, Getting WiFi credentials from SPIFFS ot LittleFS
+    - [ ] Moving root CA to SPIFFS or LittleFS
 - [ ] Buffer data locally if network down, send when network is up
 - [ ] Checking AP & STA mode on ESP32 at the same time (Custom webpage for user configurations)
 - [ ] Power Modes testing with ESP32 (Active mode, Modem Sleep mode, Light Sleep mode, Deep Sleep mode, Hibernation mode)
